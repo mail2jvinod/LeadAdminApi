@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\LeadAdmin.DIContainer\LeadAdmin.DIContainer.csproj" />
+    <ProjectReference Include="..\..\Common\LeadAdmin.Entities\LeadAdmin.Entities.csproj" />
+    <ProjectReference Include="..\..\Common\LeadAdmin.Utilities\LeadAdmin.Utilities.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\LeadAdmin.BusinessAccess\LeadAdmin.BusinessAccess.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\LeadAdmin.ResourceAccess\LeadAdmin.ResourceAccess.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+Accounting
+Inventory
+Subscriptions
+HRMS_Payroll
+Education
+CRM
+Support_Desk
+-->
+
+<Modules>
+
+	<Module title="Dashboards" icon="fa-solid fa-chart-line" uid="5271ce1d-231e-41db-b719-2a845f7da926" sortId="1">
+
+		<navigationGroup title="Overview" icon="fas fa-info-circle" uid="1017a6f0-9e5c-4905-8064-7b889f199435" sortId="1">
+			<navigationLink title="Institution" icon="fas fa-file-alt" uid="37b88300-aea8-432f-93e5-a6258c195a48" sortId="1" navigationPath="/dashboards/institution"/>
+			<navigationLink title="Finance" icon="fas fa-file-alt" uid="e8a8b294-0e09-4e85-8b1c-a21360bd5b81" sortId="2" navigationPath="/dashboards/finance"/>
+			<navigationLink title="Admissions" icon="fas fa-file-alt" uid="c7bd4abe-fb33-484d-98e2-16f95682fc0a" sortId="3" navigationPath="/dashboards/admissions"/>			
+		</navigationGroup>
+
+		<navigationGroup title="Fees" icon="fas fa-user-shield" uid="959a3d6d-47a1-4ebe-a2c2-b232b6ab425b" sortId="2">
+			<navigationLink title="Turnover" icon="fas fa-sign-in-alt" uid="ea805ccf-e613-4616-a2b5-c862cc198879" sortId="1" navigationPath="/dashboards/turnover" />
+			<navigationLink title="Collection" icon="fas fa-sign-in-alt" uid="6faeb731-d59f-4edd-a618-d143387305c4" sortId="2" navigationPath="/dashboards/collection" />
+			<navigationLink title="Dues" icon="fas fa-sign-in-alt" uid="f99d7eac-b82d-4d9a-9758-a961e1292dc5" sortId="3" navigationPath="/dashboards/dues" />
+			<navigationLink title="Concession" icon="fas fa-sign-in-alt" uid="8804d3ed-9b1a-4f5f-8407-d40888b2d3b8" sortId="4" navigationPath="/dashboards/concession" />
+			<navigationLink title="Transport" icon="fas fa-clipboard-check" uid="b83fd696-478d-4300-b6c1-3c3268972e45" sortId="5" navigationPath="/dashboards/transport" />			
+		</navigationGroup>
+
+	</Module>
+
+	<Module title="Reports" icon="fas fa-user-tie" uid="29adb9b3-ad49-4030-83d1-87dd510a131d" sortId="2">
+		<navigationGroup title="Fee Aggregate" icon="fas fa-inbox" uid="0247402a-c104-4038-904e-f9155da9b87e" sortId="1">
+			<navigationLink title="Turnover" icon="fas fa-eye" uid="74434fcf-8052-4c1f-a326-4c46ad7158a0" sortId="1" navigationPath="/sss/summary" />
+			<navigationLink title="Strength" icon="far fa-id-badge" uid="340ab9b3-44fd-4e9e-ae54-4a20aa34dcb3" sortId="2" navigationPath="/tb/pagedata/view_student_basicinfo" />
+			<navigationLink title="Concessions" icon="fas fa-map-marked-alt" uid="31bc8851-3270-4108-b475-b133d70671fe" sortId="3" navigationPath="/tb/pagedata/view_student_communicationaddress" />
+			<navigationLink title="Month wise" icon="fas fa-users" uid="73ea44e1-35d7-426e-bb7c-72064f821a93" sortId="4" navigationPath="/tb/pagedata/student_family" />
+			<navigationLink title="Receipt" icon="fas fa-file-alt" uid="cf10cf9e-7b9e-40f6-8821-b2929d94f87b" sortId="5" navigationPath="/sss/receipt" />
+			<navigationLink title="T.C." icon="fas fa-eye" uid="263cb28d-494b-4541-8503-750189e4fb52" sortId="6" navigationPath="/sss/idcard" />
+			<navigationLink title="Nil Paid" icon="fas fa-list" uid="c7de1b51-3ba3-4e13-93a1-5e83f14eb8c0" sortId="7" navigationPath="/sss/receipthistory" />
+			<navigationLink title="Transport" icon="fas fa-box" uid="1e8e1511-f237-4f8e-9ba8-6ceb3741d84b" sortId="8" navigationPath="/fee/materialreceipt"/>
+		</navigationGroup>
+
+		<navigationGroup title="Fee Detailed" icon="fab fa-cc-mastercard" uid="cb664ebe-80b4-41ff-bcba-3acc6ddf1473" sortId="3">
+			<navigationLink title="Collection" icon="fas fa-file-invoice" uid="b37508ab-386a-494a-b9a1-db5b70f12da2" sortId="1" navigationPath="/fee/materialreceipthistory"/>
+			<navigationLink title="Due" icon="fas fa-graduation-cap" uid="ca43779f-810b-444c-9947-b44cdcda4b43" sortId="2" navigationPath="/sss/academicposition" />
+			<navigationLink title="Concession" icon="fas fa-unlock" uid="2bc37231-779a-4523-a478-09bffe98c07d" sortId="3" navigationPath="/sss/release" />
+			<navigationLink title="Refund" icon="fas fa-bus" uid="e7fe3174-ef92-45ea-9231-c1306cae46a4" sortId="4" navigationPath="/fee/assigntransport" />
+			<navigationLink title="Receipt Pattern" icon="fas fa-ellipsis-h" uid="a7544def-accd-4494-94b4-95df3fae6b28" sortId="5" navigationPath="/fee/assignmisc" />
+			<navigationLink title="Transport" icon="fas fa-handshake" uid="d96eff69-161e-4cbb-8de4-705637eb4b2d" sortId="6" navigationPath="/fee/feeconcession" />
+			<navigationLink title="T.C." icon="fas fa-handshake" uid="489f388f-1b09-4d4a-aa45-c42f3cac18c7" sortId="7" navigationPath="/fee/bulkconcession" />
+			<navigationLink title="Day Wise" icon="fas fa-chart-bar" uid="9676de4e-2cbb-4240-91ab-d2130ffde778" sortId="8" navigationPath="/tb/reports/attendance" />
+			<navigationLink title="Student Time-Table" icon="fas fa-table" uid="34382dbd-e5f3-45f2-92a9-c315893cc8eb" sortId="9" navigationPath="/tb/reports/studenttimetable" />
+		</navigationGroup>
+
+	</Module>
+
+	<Module title="Student" icon="fa-solid fa-chart-line" uid="4dd38bda-344f-460c-bdba-ab4b1ff9dcd3" sortId="3">
+
+		<navigationGroup title="Primary" icon="fas fa-info-circle" uid="cfb66445-fc4b-46bd-a269-141069275a72" sortId="1">
+			<navigationLink title="Dashboard" icon="fas fa-file-alt" uid="f7b342fa-3125-4f60-8306-d2cab82905bc" sortId="1" navigationPath="/sss/dashboard" dependentOn="ls:Selected_Student" />
+			<navigationLink title="Profile" icon="fas fa-file-alt" uid="2d3392b5-721f-4961-a8ad-f97bbc4dc557" sortId="2" navigationPath="/sss/profile" dependentOn="ls:Selected_Student" />
+			<navigationLink title="Family" icon="fas fa-file-alt" uid="adcdb789-bc63-487c-a2e1-3b7adea69da9" sortId="3" navigationPath="/sss/family" dependentOn="ls:Selected_Student" />
+		</navigationGroup>
+
+		<navigationGroup title="Fee" icon="fas fa-user-shield" uid="c61b4c89-5294-4d3e-b22d-f6bb0bbf18f4" sortId="2">
+			<navigationLink title="Academic" icon="fas fa-sign-in-alt" uid="29ee142b-6e46-4139-bc29-ff94a7e0354c" sortId="1" navigationPath="/sss/academicreceipt" dependentOn="ls:Selected_Student" />
+			<navigationLink title="Transport" icon="fas fa-sign-in-alt" uid="4356fe6e-d662-4381-ab6f-d7f9b50bf42f" sortId="2" navigationPath="/sss/transportreceipt" dependentOn="ls:Selected_Student" />
+			<navigationLink title="Inventory" icon="fas fa-sign-in-alt" uid="bee0071d-905a-4dbd-8e38-5d1bdde7a15c" sortId="3" navigationPath="/sss/inventoryreceipt" dependentOn="ls:Selected_Student" />
+			<navigationLink title="Assign Miscellaneous" icon="fas fa-sign-in-alt" uid="c7ad11f1-bbb3-43d1-b643-ef9a275b7bca" sortId="4" navigationPath="/sss/assignmiscellaneous" dependentOn="ls:Selected_Student" />
+			<navigationLink title="Assign Transport" icon="fas fa-clipboard-check" uid="a5e19949-67d6-4ace-a55e-bd2a400c20dc" sortId="5" navigationPath="/sss/assigntransport" dependentOn="ls:Selected_Student" />
+		</navigationGroup>
+
+	</Module>
+
+	<Module title="Employee" icon="fa-solid fa-chart-line" uid="ffbdf94f-d1eb-4805-8fae-a526166d84c5" sortId="4">
+
+		<navigationGroup title="Primary" icon="fas fa-info-circle" uid="77414a68-914f-440f-92cd-9c6f7e412d14" sortId="1">
+			<navigationLink title="Dashboard" icon="fas fa-file-alt" uid="beb021ea-af69-42ab-996e-e8276305a558" sortId="1" navigationPath="/ess/dashbaord" dependentOn="ls:Selected_Employee" />
+			<navigationLink title="Profile" icon="fas fa-file-alt" uid="ca379be1-0ed0-4b34-b8b4-ff768929c7ee" sortId="2" navigationPath="/ess/profile" dependentOn="ls:Selected_Employee" />
+			<navigationLink title="Qualification" icon="fas fa-file-alt" uid="d03be0d2-3e4f-42a7-8c0f-5ad7e1e984ca" sortId="3" navigationPath="/ess/qualification" dependentOn="ls:Selected_Employee" />
+		</navigationGroup>
+
+	</Module>
+
+	<Module title="Operations" icon="fa-solid fa-chart-line" uid="36f03914-cc0c-4259-8900-3d2e359c2310" sortId="5">
+
+		<navigationGroup title="Onboarding" icon="fas fa-info-circle" uid="67043029-16ce-47b5-9b9c-029506992ff2" sortId="1">
+			<navigationLink title="Enquiry" icon="fas fa-file-alt" uid="3d29e5bc-1ed6-49c3-a1b4-c6356e8e0926" sortId="1" navigationPath="/eduops/enquiry"/>
+			<navigationLink title="Admission" icon="fas fa-file-alt" uid="1e96b3f9-dcb4-4674-911f-c94e5863560e" sortId="2" navigationPath="/eduops/admission"/>
+			<navigationLink title="Enquiry Follow-up" icon="fas fa-file-alt" uid="85a804fb-a89a-443c-8373-eaf7b7c79230" sortId="3" navigationPath="/eduops/enquiryfollowup"/>
+			<navigationLink title="Employee" icon="fas fa-file-alt" uid="7df3d054-8d1b-4cf1-80dc-490fd4453a2a" sortId="4" navigationPath="/hrmops/employee"/>
+		</navigationGroup>
+
+		<navigationGroup title="Connection" icon="fas fa-info-circle" uid="cdf237e5-5043-4b05-848a-836e95dc303e" sortId="2">
+			<navigationLink title="Attendance" icon="fas fa-file-alt" uid="585d4562-1e78-446f-805e-d14b8f78c4c1" sortId="1" navigationPath="/eduops/attendance"/>
+			<navigationLink title="Communication" icon="fas fa-file-alt" uid="b8fbd4f3-30b7-4f5f-8020-0942330f7885" sortId="2" navigationPath="/eduops/communication"/>			
+		</navigationGroup>
+		
+		<navigationGroup title="Process" icon="fas fa-info-circle" uid="66e36ab8-4f83-4de4-83b4-179df3615fae" sortId="3">
+			<navigationLink title="Concession Approval" icon="fas fa-file-alt" uid="6287658a-b87c-4eb1-9306-662d0ed45588" sortId="1" navigationPath="/eduops/concessionapproval"/>
+			<navigationLink title="Cheque Process" icon="fas fa-file-alt" uid="6697b5dd-c974-4b42-9ed9-93e9f32ca3bf" sortId="2" navigationPath="/eduops/chequeprocess"/>
+			<navigationLink title="Daily Collection" icon="fas fa-file-alt" uid="9af624eb-423f-4c5e-a470-729809aba1b1" sortId="3" navigationPath="/eduops/dailycollection"/>
+			<navigationLink title="Concession Workflow" icon="fas fa-file-alt" uid="2528f7aa-f080-4ef1-b9df-b80946796a3c" sortId="4" navigationPath="/eduops/concessionworkflow"/>			
+		</navigationGroup>
+
+		<navigationGroup title="Setup" icon="fas fa-info-circle" uid="8947618e-77d7-4de5-af87-236dea7f574d" sortId="4">
+			<navigationLink title="Academic Fee" icon="fas fa-file-alt" uid="b951ea2a-2941-4d15-a825-48b37eecf390" sortId="1" navigationPath="/eduops/academicfee"/>
+			<navigationLink title="Inventory Fee" icon="fas fa-file-alt" uid="40acde85-ec1f-47b9-9780-0df2b90b84f2" sortId="2" navigationPath="/eduops/inventoryfee"/>
+			<navigationLink title="Transport Fee" icon="fas fa-file-alt" uid="171e6110-9864-408c-bad9-96fa52493ff4" sortId="3" navigationPath="/eduops/transportfee"/>
+		</navigationGroup>
+
+	</Module>
+
+
+</Modules>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+Accounting
+Inventory
+Subscriptions
+HRMS_Payroll
+Education
+CRM
+Support_Desk
+-->
+
+<Modules>
+	<Module title="Masters" icon="fa-solid fa-chart-line" uid="b7dd76dd-d478-49d8-aa57-716557099c0f" sortId="1">
+
+		<navigationGroup title="My Account" icon="fa-solid fa-chart-line" uid="a1ec45a0-df92-4afc-a9c8-ae620c78c366" sortId="1">
+			<navigationLink title="Profile" icon="fas fa-file-alt" uid="d16afe54-6cf7-486b-b459-063e39e8ec11" sortId="1" navigationPath="/myaccount/profile" modulesList=""/>
+			<navigationLink title="Invoices" icon="fas fa-file-alt" uid="e43b1871-33bb-4794-b81e-a4fde6372368" sortId="2" navigationPath="/myaccount/invoices" modulesList=""/>
+			<navigationLink title="Subscription" icon="fas fa-file-alt" uid="5133b96b-019c-45f4-ad57-3b94147941ed" sortId="3" navigationPath="/myaccount/subscription" modulesList=""/>
+		</navigationGroup>
+
+		<navigationGroup title="Security" icon="fa-solid fa-chart-line" uid="d21b3101-fb29-4173-af44-b1e5d6be307f" sortId="2">
+			<navigationLink title="Roles" icon="fas fa-file-alt" uid="61eb83d5-9798-4ec4-96a2-947bd59d0c7a" sortId="1" navigationPath="/security/roles" modulesList=""/>
+			<navigationLink title="Screen Access" icon="fas fa-file-alt" uid="a664adc7-6d75-4109-b3c0-5d907976a88c" sortId="2" navigationPath="/security/screenaccess" modulesList=""/>
+			<navigationLink title="Users" icon="fas fa-file-alt" uid="6ad5a6f9-e47b-4b1b-8dc4-c86a702bd9d4" sortId="3" navigationPath="/security/users" modulesList=""/>
+		</navigationGroup>
+
+		<navigationGroup title="Communication" icon="fa-solid fa-chart-line" uid="fb1e0621-5170-4cb0-9aef-6707ae4b03c2" sortId="3">
+			<navigationLink title="Email" icon="fas fa-file-alt" uid="be9c7fe2-cec8-49a3-8c65-f57bb1d56210" sortId="1" navigationPath="/masters/email" modulesList=""/>
+			<navigationLink title="WhatsApp" icon="fas fa-file-alt" uid="30d85769-0387-49f0-b799-c8c8466385f5" sortId="2" navigationPath="/masters/whatsapp" modulesList=""/>
+			<navigationLink title="SMS" icon="fas fa-file-alt" uid="678860f8-9271-4b83-b227-0c737045abe4" sortId="3" navigationPath="/masters/sms" modulesList=""/>
+		</navigationGroup>
+
+		<navigationGroup title="Core" icon="fa-solid fa-chart-line" uid="270a70f8-0c95-428b-b00b-95d3b731f5d1" sortId="4">
+			<navigationLink title="Lookup" icon="fas fa-file-alt" uid="bcab1acd-6db3-487f-9bbc-1190e5656f60" sortId="1" navigationPath="/masters/lookup" modulesList=""/>
+			<navigationLink title="Location" icon="fas fa-file-alt" uid="fde510ab-ac0d-4164-a9d0-f57036a50bad" sortId="2" navigationPath="/masters/location" modulesList=""/>
+			<navigationLink title="Country State City" icon="fas fa-file-alt" uid="5c9b5485-c96e-41fa-8955-397bdb35c993" sortId="3" navigationPath="/masters/countrystatecity" modulesList=""/>
+		</navigationGroup>
+
+		<navigationGroup title="Accounting" icon="fa-solid fa-chart-line" uid="785acbac-c9d3-46c5-a303-bc30a77922cb" sortId="5">
+		</navigationGroup>
+
+		<navigationGroup title="Inventory" icon="fa-solid fa-chart-line" uid="7f945279-908e-4345-b1a8-a7ed28ac4ac3" sortId="6">
+			<navigationLink title="Product" icon="fas fa-file-alt" uid="31867a84-304b-44ad-963a-4d230a114bf6" sortId="1" navigationPath="/masters/product" />
+		</navigationGroup>
+
+		<navigationGroup title="HRMS &amp; Payroll" icon="fa-solid fa-chart-line" uid="7ca83814-1a95-45d5-b0b7-d92c598d6823" sortId="7">
+		</navigationGroup>
+
+		<navigationGroup title="CRM" icon="fa-solid fa-chart-line" uid="008d23cb-0985-4582-a8b2-67de5d9bea92" sortId="8">
+		</navigationGroup>
+
+		<navigationGroup title="Help Desk" icon="fa-solid fa-chart-line" uid="bf3bb7cb-a6b8-4c20-b78e-8376b8e58619" sortId="9"> 
+		</navigationGroup>
+
+		<navigationGroup title="Education" icon="fa-solid fa-chart-line" uid="8527f36b-b4b0-4f5c-b8e7-c8a579861389" sortId="10">
+			<navigationLink title="Academic Year" icon="fas fa-file-alt" uid="77541943-7ae5-4f4f-bf1f-875bf1d55470" sortId="1" navigationPath="/masters/academicyear" modulesList="Education"/>
+			<navigationLink title="Class" icon="fas fa-file-alt" uid="53c54d9b-f676-40a5-9194-f2a118ea6d38" sortId="2" navigationPath="/masters/studentclass" modulesList="Education"/>
+			<navigationLink title="Section" icon="fas fa-file-alt" uid="d73aa48e-1bd2-4ee3-9e6c-c3e6eaca21ac" sortId="3" navigationPath="/masters/section" modulesList="Education"/>
+			<navigationLink title="Student Type" icon="fas fa-file-alt" uid="a045067a-5662-4797-b6f3-ad4d64fc909d" sortId="4" navigationPath="/masters/studenttype" modulesList="Education"/>
+			<navigationLink title="Fee Organization" icon="fas fa-file-alt" uid="b67a0b41-7924-4fcb-88bd-1f05cd9f2a34" sortId="5" navigationPath="/masters/feeorganization" modulesList="Education"/>
+			<navigationLink title="Fee Component" icon="fas fa-file-alt" uid="f6611679-b1cd-437a-9ee8-48ba2af1bfa2" sortId="6" navigationPath="/masters/feecomponent" modulesList="Education"/>
+			<navigationLink title="Concession Type" icon="fas fa-file-alt" uid="82d62231-ba53-4832-9d72-aa2183289099" sortId="7" navigationPath="/masters/concessiontype" modulesList="Education"/>
+		</navigationGroup>
+
+	</Module>
+
+</Modules>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<lookups>
+
+	<category title="Common" >
+		<lookup title="Gender" isReadOnly="true"   >
+			<detail title="Male" sequenceId="1" />
+			<detail title="Female" sequenceId="2" />
+			<detail title="Other" sequenceId="3" />
+		</lookup>
+
+		<lookup title="YesNo"  isReadOnly="true" >
+			<detail title="Yes" sequenceId="1" />
+			<detail title="No" sequenceId="2" />
+		</lookup>
+
+		<lookup title="TrueFalse"  isReadOnly="true" >
+			<detail title="False" sequenceId="1" />
+			<detail title="True" sequenceId="2" />
+		</lookup>
+
+		<lookup title="ApprovalStatus" isReadOnly="true"  >
+			<detail title="In Process" sequenceId="1" />
+			<detail title="Approved" sequenceId="2" />
+			<detail title="Rejected" sequenceId="3" />
+		</lookup>
+		
+		<lookup title="MaritalStatus"  isReadOnly="true" >
+			<detail title="Married" sequenceId="1"/>
+			<detail title="Single" sequenceId="2"/>
+			<detail title="Widowed" sequenceId="3"/>
+			<detail title="Divorced" sequenceId="4"/>
+			<detail title="Separated" sequenceId="5"/>
+		</lookup>
+		
+		<lookup title="Months" isReadOnly="true">
+			<detail title="Jan" sequenceId="1" />
+			<detail title="Feb" sequenceId="2" />
+			<detail title="Mar" sequenceId="3" />
+			<detail title="Apr" sequenceId="4" />
+			<detail title="May" sequenceId="5" />
+			<detail title="Jun" sequenceId="6" />
+			<detail title="Jul" sequenceId="7" />
+			<detail title="Aug" sequenceId="8" />
+			<detail title="Sep" sequenceId="9" />
+			<detail title="Oct" sequenceId="10" />
+			<detail title="Nov" sequenceId="11" />
+			<detail title="Dec" sequenceId="12" />
+		</lookup>
+
+	</category>
+
+	<category title="CRM" >
+		<lookup title="BusinessType" isReadOnly="false"   >
+			<detail title="FMCG" sequenceId="1" />			
+		</lookup>
+		<lookup title="LeadSource" isReadOnly="false" >
+			<detail title="Direct" sequenceId="1" />
+			<detail title="Email" sequenceId="2" />
+			<detail title="Website" sequenceId="3" />
+			<detail title="Referral" sequenceId="4" />
+			<detail title="Social" sequenceId="5" />
+		</lookup>
+	</category>
+
+</lookups>

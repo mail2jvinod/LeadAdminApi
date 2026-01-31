@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+Accounting
+Inventory
+Subscriptions
+HRMS_Payroll
+Education
+CRM
+Support_Desk
+-->
+
+<Modules>
+
+	<Module title="Dashboards" icon="fa-solid fa-chart-line" uid="73cb2564-4163-4875-941f-42b7d7dd829e" sortId="1">
+
+		<navigationGroup title="Overview" icon="fas fa-info-circle" uid="7703c0c2-5d93-4539-b3a7-658366e22099" sortId="1">
+			<navigationLink title="Institution" icon="fas fa-file-alt" uid="00cfaa6f-cd63-4974-acf7-e7e556334c81" sortId="1" dependentOn="ls:Selected_Employee" navigationPath="/ess/summary"/>
+			<navigationLink title="Finance" icon="fas fa-file-alt" uid="5639C50E-9CDA-4CC0-B791-9AF49FB89208" sortId="2" dependentOn="ls:Selected_Employee" navigationPath="/tb/pagedata/view_employee_basicinfo"/>
+			<navigationLink title="Admissions" icon="fas fa-file-alt" uid="DDDA8216-EB84-4A08-98B8-A32F13894D6E" sortId="3" dependentOn="ls:Selected_Employee" navigationPath="/tb/pagedata/view_employee_contact"/>			
+		</navigationGroup>
+
+		<navigationGroup title="Fees" icon="fas fa-user-shield" uid="82e442db-548a-45a3-bc86-50221fad3409" sortId="2">
+			<navigationLink title="Turnover" icon="fas fa-sign-in-alt" uid="53cba264-de66-4532-b8aa-f2263a5cd1b6" sortId="1" dependentOn="ls:Selected_Employee" navigationPath="/ess/elogin" />
+			<navigationLink title="Collection" icon="fas fa-sign-in-alt" uid="ca93120f-bfc0-4c68-ad8d-0dd18bed3ee5" sortId="2" dependentOn="ls:Selected_Employee" navigationPath="/tb/pagedata/accessmachinedetail" />
+			<navigationLink title="Dues" icon="fas fa-sign-in-alt" uid="b880d71c-6e31-415d-a875-73385d592cad" sortId="3" dependentOn="ls:Selected_Employee" navigationPath="/tb/pagedata/mapemployeeandlocation" />
+			<navigationLink title="Concession" icon="fas fa-sign-in-alt" uid="2f6b8fef-9a56-417d-aca8-d65bdc90bc30" sortId="4" dependentOn="ls:Selected_Employee" navigationPath="/tb/pagedata/mapemployeeandlocation" />
+			<navigationLink title="Transport" icon="fas fa-clipboard-check" uid="e590b6b2-e639-4368-b253-35c9c16fc4e5" sortId="1" dependentOn="ls:Selected_Employee" navigationPath="/ess/applyleave" />			
+		</navigationGroup>
+
+	</Module>
+
+	<Module title="Reports" icon="fas fa-user-tie" uid="a889f053-f1c3-4c2c-9830-520debadbfdc" sortId="2">
+		<navigationGroup title="Fee Aggregate" icon="fas fa-inbox" uid="c8cad8fb-086f-41f4-8800-b5cc964804df" sortId="1">
+			<navigationLink title="Turnover" icon="fas fa-eye" uid="ff7bc288-50fb-451f-b188-23b85428c781" sortId="1" dependentOn="ls:Selected_Student" navigationPath="/sss/summary" />
+			<navigationLink title="Strength" icon="far fa-id-badge" uid="39BD634E-CFB5-4E5E-B2F3-DB278C35EAAB" sortId="2" dependentOn="ls:Selected_Student" navigationPath="/tb/pagedata/view_student_basicinfo" />
+			<navigationLink title="Concessions" icon="fas fa-map-marked-alt" uid="0FF85FBD-0C6D-41C1-AA11-75853152D712" sortId="3" dependentOn="ls:Selected_Student" navigationPath="/tb/pagedata/view_student_communicationaddress" />
+			<navigationLink title="Month wise" icon="fas fa-users" uid="D2607F92-3FED-40D6-9CFD-665D8021AAF2" sortId="4" dependentOn="ls:Selected_Student" navigationPath="/tb/pagedata/student_family" />
+			<navigationLink title="Receipt" icon="fas fa-file-alt" uid="0c4aa5fd-4d2b-46f4-b1a4-9f968619a19b" sortId="1" dependentOn="ls:Selected_Student" navigationPath="/sss/receipt" />
+			<navigationLink title="T.C." icon="fas fa-eye" uid="d9b9ff10-5c53-4e01-a1ff-b92cc7e9fe55" sortId="101" dependentOn="ls:Selected_Student" navigationPath="/sss/idcard" />
+			<navigationLink title="Nil Paid" icon="fas fa-list" uid="11db9132-7063-44ac-aaba-8b141d3e2799" sortId="2" dependentOn="ls:Selected_Student" navigationPath="/sss/receipthistory" />
+			<navigationLink title="Transport" icon="fas fa-box" uid="c7554c19-6297-4052-bd60-2f5b19340884" sortId="3" dependentOn="ls:Selected_Student" navigationPath="/fee/materialreceipt"/>
+		</navigationGroup>
+
+		<navigationGroup title="Fee Detailed" icon="fab fa-cc-mastercard" uid="6811ed9e-ae21-49e6-8177-4892af17aa05" sortId="2">
+			<navigationLink title="Collection" icon="fas fa-file-invoice" uid="66979ead-df61-4b44-9e17-b1c454fa853f" sortId="4" dependentOn="ls:Selected_Student" navigationPath="/fee/materialreceipthistory"/>
+			<navigationLink title="Due" icon="fas fa-graduation-cap" uid="2bd6a4f6-a9c3-4460-98a6-4ab12347d398" sortId="5" dependentOn="ls:Selected_Student" navigationPath="/sss/academicposition" />
+			<navigationLink title="Concession" icon="fas fa-unlock" uid="4513fdc8-495a-42d9-85ae-6ed4e666289d" sortId="6" dependentOn="ls:Selected_Student" navigationPath="/sss/release" />
+			<navigationLink title="Refund" icon="fas fa-bus" uid="a36a39f5-c715-48db-9af5-900d91bbc65f" sortId="7" dependentOn="ls:Selected_Student" navigationPath="/fee/assigntransport" />
+			<navigationLink title="Receipt Pattern" icon="fas fa-ellipsis-h" uid="ec2a32f6-714f-42ab-922e-77d2979c3a91" sortId="8" dependentOn="ls:Selected_Student" navigationPath="/fee/assignmisc" />
+			<navigationLink title="Transport" icon="fas fa-handshake" uid="819d6364-be8c-432a-a5e1-c17751b00eb8" sortId="9" dependentOn="ls:Selected_Student" navigationPath="/fee/feeconcession" />
+			<navigationLink title="T.C." icon="fas fa-handshake" uid="fd233e99-2ed4-45bb-8859-171c64919292" sortId="10" dependentOn="ls:Selected_Student" navigationPath="/fee/bulkconcession" />
+			<navigationLink title="Day Wise" icon="fas fa-chart-bar" uid="05492A8E-AA74-4AFB-A26B-5B936AEB3C83" sortId="1" dependentOn="ls:Selected_Student" navigationPath="/tb/reports/attendance" />
+			<navigationLink title="Student Time-Table" icon="fas fa-table" uid="5A3C0530-1CDF-4C6F-93A6-DFBC198C921D" sortId="2" dependentOn="ls:Selected_Student" navigationPath="/tb/reports/studenttimetable" />
+		</navigationGroup>
+
+	</Module>
+
+</Modules>

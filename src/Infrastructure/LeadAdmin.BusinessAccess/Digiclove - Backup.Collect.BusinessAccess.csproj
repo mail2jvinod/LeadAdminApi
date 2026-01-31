@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\JLA.ERP.Entities\JLA.ERP.Entities.csproj" />
+    <ProjectReference Include="..\..\Common\JLA.ERP.Utilities\JLA.ERP.Utilities.csproj" />
+    <ProjectReference Include="..\JLA.ERP.ResourceAccess\JLA.ERP.ResourceAccess.csproj" />
+  </ItemGroup>
+
+</Project>
